@@ -1,8 +1,9 @@
-<li>
-    {{burger_name}}
+<div class="row d-flex flex-wrap">
 
-    <button class="change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
-        {{#if devoured}}Eatme{{else}}Un-Eat Me!{{/if}}
-    </button>
-
-</li>
+    <li class="text-center">
+        {{burger_name}}
+        <button class="change-devoured btn btn-outline-danger" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            {{#if devoured}}Eatme{{else}}Un-Eat Me!{{/if}}
+        </button>
+    </li>
+</div>

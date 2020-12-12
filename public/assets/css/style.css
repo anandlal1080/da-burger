@@ -1,0 +1,17 @@
+.title {
+  text-align: center;
+  font-style: italic;
+  text-decoration-color: chartreuse;
+  font-family: cursive;
+  font-size: 80px;
+}
+
+.container {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  margin: 10px;
+  font-size: 30px;
+}
