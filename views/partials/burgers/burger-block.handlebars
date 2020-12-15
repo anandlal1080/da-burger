@@ -1,9 +1,26 @@
-<div class="row d-flex flex-wrap">
+<div class="row d-flex flex-wrap border rounded-pill mb-3 bg-dark">
+
+    {{!-- <li class="text-center">
+        {{burger_name}}
+    </li> --}}
+    {{#if devoured}}
+    <li class="text-center">
+        {{burger_name}}
+    </li>
+    <li style="text-align: center;">
+        <button class="change-devoured btn btn-outline-danger" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            Eat Me!
+        </button>
+
+    </li>
+    {{/if}}
+
+    {{#unless devoured}}
 
     <li class="text-center">
         {{burger_name}}
-        <button class="change-devoured btn btn-outline-danger" data-id="{{id}}" data-newdevoured="{{devoured}}">
-            {{#if devoured}}Eatme{{else}}Un-Eat Me!{{/if}}
-        </button>
     </li>
+
+
+    {{/unless}}
 </div>
