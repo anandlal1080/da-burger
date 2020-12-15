@@ -8,7 +8,7 @@ This app has been deployed on [Heroku](https://calm-bayou-87683.herokuapp.com/)
 
 This is a Full Stack app that allows the user to do the following:
 
-<li> Add Burgers to a datbase</li>
+<li> Add Burgers to a database</li>
 
 ![Add Burgers](./images/add.PNG)
 
